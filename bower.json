@@ -1,0 +1,36 @@
+{
+  "name": "rocinha",
+  "version": "0.3.0",
+  "authors": [
+    "Karl Fathi <karl.fathi@gmail.com>"
+  ],
+    "description": "Gulp front-end dev toolchain. Uses Sass, Imagemin, Browserify, Jade and others. Easily add other modules in the existing workflow.",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "gulp",
+    "toolchain",
+    "sass",
+    "imageoptim",
+    "jade",
+    "browser-sync",
+    "jscs",
+    "browserify",
+    "svg",
+    "jshint"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,13 @@
+extends layouts/_main.jade
+
+block content
+    - var SVGIcons = paths.assets.icons.out.path + '/' + paths.assets.icons.out.file;
+    main.main(role='main')
+        svg.main__logo(role='img', title='Pixelfordinner Logo (Type)')
+            use(xlink:href=SVGIcons + '#pixelfordinner-logo-light-type')
+        h1.main__heading Hello world
+        p.main__paragraph= 'from ' + pkg.name + ' (' + pkg.version + ') !'
+        a(href='https://pixelfordinner.com', target='_blank')
+            svg.secondary__logo(role='img', title='Pixelfordinner Logo (Redux)')
+                use(xlink:href=SVGIcons + '#pixelfordinner-logo-light-redux')
+        script(src=paths.assets.scripts.js.out.path + '/' + paths.assets.scripts.js.out.file)

@@ -1,0 +1,12 @@
+linters:
+  Indentation:
+    width: 2
+
+  SelectorFormat:
+    convention: hyphenated_BEM
+
+  BemDepth:
+    max_elements: 3
+
+  PropertySortOrder:
+    enabled: false

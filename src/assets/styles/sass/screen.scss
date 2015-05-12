@@ -1,0 +1,35 @@
+@import 'vendors/normalize';
+
+$background-color: #000;
+$text-color: #fff;
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  margin: auto;
+  text-align: center;
+}
+
+.main__logo {
+  width: 300px;
+  height: 60px;
+}
+
+.main__heading {
+  text-transform: lowercase;
+  font-weight: 300;
+}
+
+.secondary__logo {
+  width: 32px;
+  height: 32px;
+  margin-top: 16px;
+}

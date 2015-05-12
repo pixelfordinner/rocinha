@@ -1,0 +1,7 @@
+{
+    "page": {
+        "locale": "en_US",
+        "title": "Hello world!",
+        "description": "<%= pkg.description %>"
+    }
+}
