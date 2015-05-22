@@ -86,7 +86,7 @@ var paths = {
       path: '/assets/icons',
       out: {
         path: '/assets/icons',
-        file: 'assets.svg'
+        file: 'symbols.svg'
       },
       files: '/**/*.svg'
     }
